@@ -33,16 +33,16 @@ M: Monetary: Customer's total expenditure.
 **RFM Scores:**
 ![image](https://user-images.githubusercontent.com/83431435/127220745-8ac7ec88-24f4-446d-8dba-0249e40ea5d3.png)
 
-Hibernating -> R:[1-2], F:[1-2]
-At Risk -> R:[1-2], F:[3-4]
-Can't lose -> R:[1-2], F:5
-About to Sleep -> R:3 , F:[1-2]
-Need Attention -> R:3 , F:3
-Loyal Customers -> R:[3-4], F:[4-5]
-Promising -> R:4, F: 1
-New_Customers -> R:5, F: 1
-Potential Loyalists -> R:[4-5], F:[2-3]
-Champions-> R:5, F:[4-5]
+- Hibernating -> R:[1-2], F:[1-2]
+- At Risk -> R:[1-2], F:[3-4]
+- Can't lose -> R:[1-2], F:5
+- About to Sleep -> R:3 , F:[1-2]
+- Need Attention -> R:3 , F:3
+- Loyal Customers -> R:[3-4], F:[4-5]
+- Promising -> R:4, F: 1
+- New_Customers -> R:5, F: 1
+- Potential Loyalists -> R:[4-5], F:[2-3]
+- Champions-> R:5, F:[4-5]
 
 RFM score facilitates customer tracking and comparability. Marketing strategies can be developed based on each segment. 
 
