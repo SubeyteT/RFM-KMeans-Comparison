@@ -56,7 +56,7 @@ df = df.groupby("Customer ID").agg({"InvoiceDate": lambda InvoiceDate: (today_da
                                     "TotalPrice": lambda TotalPrice: TotalPrice.sum()})
 df.columns = ["recency", "frequency", "monetary"]
 
-df = cluster[cluster["monetary"] > 0]   # monetary has to be greater than 0
+df = df[df["monetary"] > 0]   # monetary has to be greater than 0
 
 df.head()
 
@@ -99,7 +99,8 @@ df[["Segment", "recency", "frequency", "monetary"]].groupby("Segment").agg(["mea
 # K - MEANS
 ###################
 
-km = cluster.copy()
+km = df.copy()
+km = km.drop("Segment", axis=1)
 
 sc = MinMaxScaler((0, 1))
 km = sc.fit_transform(km)
