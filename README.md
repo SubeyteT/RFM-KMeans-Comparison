@@ -55,6 +55,7 @@ K - Means is an unsupervised learning machine learning algorithm. Unsupervised l
 Determination of optimum number of clusters and iteration numbers is important. We can find it with the model and elbow method. But developer has to have an eye on these hyperparameters due to industry knowledge's importance. 
 
 
+References: Veri Bilimi Okulu
 
 
 
